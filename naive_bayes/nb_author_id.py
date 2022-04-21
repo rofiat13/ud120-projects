@@ -24,16 +24,7 @@ features_train, features_test, labels_train, labels_test = preprocess()
 
 ##############################################################
 # Enter Your Code Here
-clf=naiveBayes()
-t0 = time()
-< your clf.fit() line of code >
-print "training time:", round(time()-t0, 3), "s"
-clf.fit(features_train, label_train)
-t0 = time()
-< your clf.fit() line of code >
-print "training time:", round(time()-t0, 3), "s"
-pred=clf.predict(features_test)
-print(pred)
+
 
 
 
